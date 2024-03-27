@@ -5,9 +5,29 @@ body {
 }
 ul {
     list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 a {
     text-decoration: none;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .logo {
@@ -59,6 +79,8 @@ a {
 .hero {
     background: #2e2f42;
     color: #fff;
+    padding-bottom: 188px;
+    padding-top: 188px;
 }
 
 .hero-heading {
@@ -67,6 +89,9 @@ a {
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
+    max-width: 496px;
+    margin-bottom: 40px;
+
 }
 
 .hero-button {
@@ -78,6 +103,8 @@ a {
     background: #4d5ae5;
     color: #fff;
     cursor: pointer;
+    display: block;
+
 }
 
 .hero-button:hover,
@@ -89,7 +116,22 @@ a {
 /* 4 points for improvement */
 
 .improv {
+    padding-top: 129px;
+    padding-bottom: 120px;
 }
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 
 .improv-list {
     }
@@ -117,6 +159,8 @@ a {
 /* our team */
 .team {
     background: #f4f4fd;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-heading {
@@ -127,9 +171,11 @@ a {
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .team-list{
+    
 }
 
 .team-item {
@@ -157,6 +203,8 @@ a {
 
 /* our portfolio */
 .partfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .partfolio-heading {
@@ -167,6 +215,7 @@ a {
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .partgolio-list{
@@ -197,13 +246,17 @@ a {
 /* footer */
 footer {
     background-color: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .footer-logo .logo-part {
-    color: #f4f4fd;;
+    color: #f4f4fd;
 }
 .footer-content {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
+    margin-top: 16px;
 }
