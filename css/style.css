@@ -22,7 +22,7 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
-  }
+}
 
 .container {
     width: 1158px;
@@ -31,15 +31,18 @@ img {
     margin: 0 auto;
 }
 
+.box {
+    padding: 120px 0;
+}
+
 .header {
-    /* padding-top: 24px;
-    padding-bottom: 24px; */
     border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .nav {
@@ -55,11 +58,17 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px;
+}
+
+.logo.header-logo {
+    display: block;
+    padding: 24px 0;
 }
 
 .header-logo .logo-part {
     color: #2e2f42;
+    margin-right: 76px;
+
 }
 
 .nav-list {
@@ -77,6 +86,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    display: block;
     padding: 24px 0;
 }
 
@@ -94,7 +104,6 @@ img {
     display: flex;
     gap: 40px;
     align-items: center;
-    padding: 24px 0;
 }
 
 .contact-item {
@@ -106,6 +115,8 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    display: block;
+    padding: 24px 0;
 }
 
 .contact-link:hover,
@@ -120,12 +131,8 @@ img {
     color: #fff;
     padding-bottom: 188px;
     padding-top: 188px;
- 
 }
 
-.hero-container{
-    
-}
 .hero-heading {
     font-weight: 700;
     font-size: 56px;
@@ -133,7 +140,8 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     max-width: 496px;
-    margin: 0 auto; 
+    margin: 0 auto;
+    margin-bottom: 48px; 
 }
 
 .hero-button {
@@ -150,9 +158,7 @@ img {
     min-width: 169px;
     height: 56px;
     border: none;
-    margin-top: 48px;
-    margin-left: auto;
-    margin-right: auto; 
+    margin: 0 auto;
 }
 
 .hero-button:hover,
@@ -162,10 +168,6 @@ img {
 /* ----------- */
 
 /* 4 points for improvement */
-
-.improv {
-    padding: 120px 0;
-}
 
 .visually-hidden {
     position: absolute;
@@ -210,8 +212,6 @@ img {
 /* our team */
 .team {
     background: #f4f4fd;
-    padding-top: 120px;
-    padding-bottom: 120px;
 }
 
 .team-heading {
@@ -261,8 +261,7 @@ img {
 
 /* our portfolio */
 .partfolio {
-    padding-top: 120px;
-    padding-bottom: 120px;
+
 }
 
 .partfolio-heading {
@@ -332,5 +331,4 @@ footer {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
-    margin-top: 16px;
 }
